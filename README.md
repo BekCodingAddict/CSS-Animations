@@ -23,6 +23,7 @@
      - Parallax: Background images or elements move at a different speed than the foreground elements, creating a sense 
        of depth.
 
-  These effects can be combined, customized, and triggered in various ways to create engaging and interactive user 
-  experiences. CSS Animation effects are widely used in modern web development to enhance the visual appeal and usability 
-  of websites and web applications.
+   These effects can be combined, customized, and triggered in various ways to create engaging and interactive user 
+   experiences. CSS Animation effects are widely used in modern web development to enhance the visual appeal and 
+   usability 
+   of websites and web applications.
