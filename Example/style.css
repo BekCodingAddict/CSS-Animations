@@ -1,0 +1,182 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: white;
+}
+
+.container {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  transform-style: preserve-3d;
+  transform: perspective(500px);
+}
+
+.container span {
+  position: absolute;
+  display: block;
+
+  border: 30px solid black;
+  border-radius: 50%;
+  border-top-color: aqua;
+  border-bottom-color: red;
+  border-left-color: blue;
+  border-right-color: yellow;
+}
+
+.container span:nth-child(1) {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  animation-delay: 0.5s;
+  animation: animate1 3s ease-in-out infinite;
+}
+
+@keyframes animate1 {
+  0% {
+    transform: rotate(720deg);
+  }
+}
+
+.container span:nth-child(2) {
+  border-top-color: black;
+  border-bottom-color: lime;
+  border-left-color: white;
+  border-right-color: orange;
+
+  top: 30px;
+  bottom: 30px;
+  left: 30px;
+  right: 30px;
+  animation-delay: 0.5s;
+  animation: animate2 2.5s ease-in-out infinite;
+}
+
+@keyframes animate2 {
+  0% {
+    transform: rotate(500deg);
+  }
+}
+
+.container span:nth-child(3) {
+  border-top-color: purple;
+  border-bottom-color: blue;
+  border-left-color: gray;
+  border-right-color: rgb(212, 0, 255);
+
+  top: 60px;
+  bottom: 60px;
+  left: 60px;
+  right: 60px;
+  animation-delay: 0.5s;
+  animation: animate3 2s ease-in-out infinite;
+}
+@keyframes animate3 {
+  0% {
+    transform: rotate(-500deg);
+  }
+}
+
+.container span:nth-child(4) {
+  border-top-color: rgb(128, 34, 0);
+  border-bottom-color: rgb(0, 115, 255);
+  border-left-color: rgb(241, 219, 219);
+  border-right-color: rgb(255, 0, 102);
+
+  top: 90px;
+  bottom: 90px;
+  left: 90px;
+  right: 90px;
+  animation-delay: 0.5s;
+  animation: animate5 1.8s ease-in-out infinite;
+}
+@keyframes animate5 {
+  0% {
+    transform: rotate(360deg);
+  }
+}
+
+.container span:nth-child(5) {
+  border-top-color: rgb(60, 128, 0);
+  border-bottom-color: rgba(255, 115, 0, 0.808);
+  border-left-color: rgb(128, 128, 128);
+  border-right-color: rgb(255, 0, 123);
+
+  top: 120px;
+  bottom: 120px;
+  left: 120px;
+  right: 120px;
+  animation-delay: 0.5s;
+  animation: animate3 1.5s ease-in-out infinite;
+}
+@keyframes animate3 {
+  0% {
+    transform: rotate(-320deg);
+  }
+}
+
+.container span:nth-child(6) {
+  border-top-color: rgb(128, 105, 0);
+  border-bottom-color: rgb(0, 255, 187);
+  border-left-color: rgb(128, 128, 128);
+  border-right-color: rgb(111, 0, 255);
+
+  top: 150px;
+  bottom: 150px;
+  left: 150px;
+  right: 150px;
+  animation-delay: 0.5s;
+  animation: animate6 2.4s ease-in-out infinite;
+}
+@keyframes animate6 {
+  0% {
+    transform: rotate(360deg);
+  }
+}
+
+.container span:nth-child(7) {
+  border-top-color: rgb(68, 128, 0);
+  border-bottom-color: rgb(9, 255, 0);
+  border-left-color: rgb(128, 128, 128);
+  border-right-color: rgb(255, 0, 212);
+
+  top: 180px;
+  bottom: 180px;
+  left: 180px;
+  right: 180px;
+  animation-delay: 0.5s;
+  animation: animate7 2.8s ease-in-out infinite;
+}
+@keyframes animate7 {
+  0% {
+    transform: rotate(-360deg);
+  }
+}
+
+.container span:nth-child(8) {
+  border-top-color: rgb(4, 0, 128);
+  border-bottom-color: rgb(120, 167, 243);
+  border-left-color: rgb(50, 19, 48);
+  border-right-color: rgb(174, 255, 0);
+
+  top: 210px;
+  bottom: 210px;
+  left: 210px;
+  right: 210px;
+  animation-delay: 0.5s;
+  animation: animate8 2.2s ease-in-out infinite;
+}
+@keyframes animate8 {
+  0% {
+    transform: rotate(360deg);
+  }
+}
