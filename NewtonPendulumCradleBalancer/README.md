@@ -3,4 +3,4 @@
 - [x] Tools:
   - HTML
   - CSS
-- [x] Deploy Link 👉 [Animated Hot Cup of Tea](https://bekcodingaddict.github.io/CSS-Animations/NewtonPendulumCradleBalancer/)
+- [x] Deploy Link 👉 [Newton Pendulum Cradle Balancer](https://bekcodingaddict.github.io/CSS-Animations/NewtonPendulumCradleBalancer/)
