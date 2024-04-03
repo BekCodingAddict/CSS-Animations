@@ -2,4 +2,4 @@
   - [x] Tools:
     - HTML
     - CSS
-  - [x] Deploy Link 👉 [Wavy Circle Loader](https://github.com/BekCodingAddict/CSS-Animations/tree/master/WavyCircleLoader/)
+  - [x] Deploy Link 👉 [Wavy Circle Loader](https://bekcodingaddict.github.io/CSS-Animations/WavyCircleLoader/)
