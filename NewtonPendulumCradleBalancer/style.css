@@ -1,0 +1,233 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: rgba(0, 0, 0, 0.913);
+}
+
+.container {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  transform-style: preserve-3d;
+  transform: perspective(500px);
+}
+
+.container span {
+  position: absolute;
+  display: block;
+  border: 10px solid #fff;
+  box-shadow: 0 5px 0 #ccc, inset 0 5px 0 #ccc;
+  box-sizing: border-box;
+}
+
+.container span:nth-child(1) {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  animation-delay: 0.8s;
+  border-radius: 50%;
+  animation: animate 5s ease-in-out infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotateX(360deg);
+  }
+}
+
+.container span:nth-child(2) {
+  top: 20px;
+  bottom: 20px;
+  right: 20px;
+  left: 20px;
+  animation-delay: 0.8s;
+  border-radius: 50%;
+  animation: animate2 4.7s ease-in-out infinite;
+  transform: rotateY(45deg);
+  border: 15px solid black;
+}
+
+@keyframes animate2 {
+  0% {
+    transform: rotateY(360deg);
+  }
+}
+
+.container span:nth-child(3) {
+  top: 40px;
+  bottom: 40px;
+  right: 40px;
+  left: 40px;
+  animation-delay: 0.8s;
+  border-radius: 50%;
+  animation: animate3 4.3s ease-in-out infinite;
+  border: 15px solid blue;
+}
+
+@keyframes animate3 {
+  0% {
+    transform: rotateX(360deg);
+  }
+}
+
+.container span:nth-child(4) {
+  top: 60px;
+  bottom: 60px;
+  right: 60px;
+  left: 60px;
+  animation-delay: 0.8s;
+  border-radius: 50%;
+  animation: animate4 4s ease-in-out infinite;
+  border: 15px solid red;
+}
+
+@keyframes animate4 {
+  0% {
+    transform: rotateY(360deg);
+  }
+}
+
+.container span:nth-child(5) {
+  top: 80px;
+  bottom: 80px;
+  right: 80px;
+  left: 80px;
+  animation-delay: 0.8s;
+  border-radius: 50%;
+  animation: animate5 3.7s ease-in-out infinite;
+  border: 15px solid green;
+}
+
+@keyframes animate5 {
+  0% {
+    transform: rotateX(360deg);
+  }
+}
+
+.container span:nth-child(6) {
+  top: 100px;
+  bottom: 100px;
+  right: 100px;
+  left: 100px;
+  animation-delay: 0.8s;
+  border-radius: 50%;
+  animation: animate6 3.3s ease-in-out infinite;
+  border: 15px solid yellow;
+}
+
+@keyframes animate6 {
+  0% {
+    transform: rotateY(360deg);
+  }
+}
+
+.container span:nth-child(7) {
+  top: 120px;
+  bottom: 120px;
+  right: 120px;
+  left: 120px;
+  animation-delay: 0.8s;
+  border-radius: 50%;
+  animation: animate7 3s ease-in-out infinite;
+  border: 15px solid aqua;
+}
+
+@keyframes animate7 {
+  0% {
+    transform: rotateX(360deg);
+  }
+}
+
+.container span:nth-child(8) {
+  top: 140px;
+  bottom: 140px;
+  right: 140px;
+  left: 140px;
+  animation-delay: 0.8s;
+  border-radius: 50%;
+  animation: animate8 2.7s ease-in-out infinite;
+  border: 15px solid purple;
+}
+
+@keyframes animate8 {
+  0% {
+    transform: rotateY(360deg);
+  }
+}
+
+.container span:nth-child(9) {
+  top: 160px;
+  bottom: 160px;
+  right: 160px;
+  left: 160px;
+  animation-delay: 0.8s;
+  border-radius: 50%;
+  animation: animate9 2.3s ease-in-out infinite;
+  border: 15px solid orangered;
+}
+
+@keyframes animate9 {
+  0% {
+    transform: rotateX(360deg);
+  }
+}
+
+.container span:nth-child(10) {
+  top: 180px;
+  bottom: 180px;
+  right: 180px;
+  left: 180px;
+  animation-delay: 0.8s;
+  border-radius: 50%;
+  animation: animate10 2.3s ease-in-out infinite;
+  border: 15px solid lime;
+}
+
+@keyframes animate10 {
+  0% {
+    transform: rotateY(360deg);
+  }
+}
+
+.container span:nth-child(11) {
+  top: 200px;
+  bottom: 200px;
+  right: 200px;
+  left: 200px;
+  animation-delay: 0.8s;
+  border-radius: 50%;
+  animation: animate11 2s ease-in-out infinite;
+  border: 15px solid rgba(0, 115, 255, 0.805);
+}
+
+@keyframes animate11 {
+  0% {
+    transform: rotateX(360deg);
+  }
+}
+
+.container span:nth-child(12) {
+  top: 220px;
+  bottom: 220px;
+  right: 220px;
+  left: 220px;
+  animation-delay: 0.8s;
+  border-radius: 50%;
+  animation: animate12 1.7s ease-in-out infinite;
+  border: 15px solid rgb(226, 4, 255);
+}
+
+@keyframes animate12 {
+  0% {
+    transform: rotateY(360deg);
+  }
+}
