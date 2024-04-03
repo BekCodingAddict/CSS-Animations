@@ -3,4 +3,4 @@
 - [x] Tools:
   - HTML
   - CSS
-- [x] Deploy Link 👉 [Wavy Circle Loader](https://bekcodingaddict.github.io/CSS-Animations/ColorfullSpinner/)
+- [x] Deploy Link 👉 [Colorfull Spinner Animation](https://bekcodingaddict.github.io/CSS-Animations/ColorfullSpinner/)
