@@ -5,5 +5,4 @@
           - CSS
           - JavaScript
           - Font Awsome
-- [x] Deploy Link 👉 [IconBackgroundAnimationEffects](https://bekcodingaddict.github.io/CSS-Animations/IconBackgroundAnimationEffect
-/)
+- [x] Deploy Link 👉 [IconBackgroundAnimationEffects](https://bekcodingaddict.github.io/CSS-Animations/IconBackgroundAnimationEffect/)
