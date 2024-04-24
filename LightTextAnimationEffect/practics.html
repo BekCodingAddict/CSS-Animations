@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practics</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .wrapper {
+            min-width: 100vw;
+            min-height: 100vh;
+            background: linear-gradient(135deg, rgb(32, 30, 45), rgb(20, 20, 43));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .wrapper h1 {
+            position: relative;
+            letter-spacing: 15px;
+            font-size: 8rem;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #fff;
+            text-shadow: 0 0 10px #0f0, 0 0 20px #03bcf4, 0 0 40px #0f0,
+                0 0 80px #03bcf4, 0 0 160px #0f0;
+            ;
+            letter-spacing: 1rem;
+            outline: none;
+            -webkit-box-reflect: below 1px linear-gradient(transparent, #0008);
+            line-height: 0.4em;
+            animation: anime 5s linear infinite;
+        }
+
+        @keyframes anime {
+            0% {
+                filter: hue-rotate(360deg);
+                /* color: transparent; */
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1 contenteditable="true">Text</h1>
+    </div>
+
+</body>
+
+</html>
